@@ -1,0 +1,411 @@
+.header-container {
+  width: 100%;
+  height: 84px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-register {
+  top: 27px;
+  right: 40px;
+  width: 186px;
+  height: 25px;
+  position: absolute;
+}
+.header-logo-placeholder {
+  top: 14px;
+  left: 58px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  align-self: center;
+}
+.header-register1 {
+  top: 28px;
+  left: 143px;
+  width: 186px;
+  height: 25px;
+  position: absolute;
+}
+.header-banner {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+
+
+
+
+
+
+
+.menu-container {
+  width: 252px;
+  height: 1087px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.menu-options-frame {
+  left: -3px;
+  width: 100%;
+  bottom: -2px;
+  height: 1087px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 4, 22, 1);
+}
+.menu-frame9 {
+  top: 76px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+.menu-frame10 {
+  top: 158px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+.menu-frame91 {
+  top: 240px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+.menu-frame92 {
+  top: 322px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+
+
+
+
+
+.footer-container {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-footer {
+  width: 100%;
+  height: 100%;
+}
+.footer-text {
+  top: 11px;
+  left: 624px;
+  color: rgb(117, 117, 117);
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Jolly Lodger";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+
+
+
+.liked-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.liked-frame43-liked-list04 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: rgba(217, 182, 139, 1);
+}
+.liked-poster01 {
+  top: 169px;
+  left: 343px;
+  width: 226px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(12, 53, 89, 1);
+}
+.liked-poster02 {
+  top: 169px;
+  left: 590px;
+  width: 225px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(242, 203, 5, 1);
+}
+.liked-poster03 {
+  top: 169px;
+  left: 829px;
+  width: 225px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(242, 183, 5, 1);
+}
+.liked-poster04 {
+  top: 169px;
+  left: 1075px;
+  width: 226px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 165, 102, 1);
+}
+.liked-poster05 {
+  top: 523px;
+  left: 343px;
+  width: 226px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 13, 13, 1);
+}
+.liked-poster06 {
+  top: 523px;
+  left: 590px;
+  width: 225px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 165, 102, 1);
+}
+.liked-poster07 {
+  top: 523px;
+  left: 829px;
+  width: 225px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(12, 53, 89, 1);
+}
+.liked-poster08 {
+  top: 523px;
+  left: 1075px;
+  width: 226px;
+  height: 334px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(242, 203, 5, 1);
+}
+.liked-button-shake-it-placeholder {
+  top: 95px;
+  left: 1343px;
+  width: 68px;
+  height: 68px;
+  position: absolute;
+}
+.liked-text {
+  top: 298px;
+  left: 375px;
+  color: rgba(255, 255, 255, 1);
+  width: 161px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text02 {
+  top: 661px;
+  left: 375px;
+  color: rgba(255, 255, 255, 1);
+  width: 161px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text04 {
+  top: 298px;
+  left: 622px;
+  color: rgba(255, 255, 255, 1);
+  width: 161px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text06 {
+  top: 661px;
+  left: 622px;
+  color: rgba(255, 255, 255, 1);
+  width: 161px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text08 {
+  top: 302px;
+  left: 867px;
+  color: rgba(255, 255, 255, 1);
+  width: 163px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text10 {
+  top: 655px;
+  left: 867px;
+  color: rgba(255, 255, 255, 1);
+  width: 163px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text12 {
+  top: 302px;
+  left: 1114px;
+  color: rgba(255, 255, 255, 1);
+  width: 162px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-text14 {
+  top: 651px;
+  left: 1114px;
+  color: rgba(255, 255, 255, 1);
+  width: 162px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.liked-rectangle33 {
+  top: 150px;
+  left: 326px;
+  width: 995px;
+  height: 727px;
+  opacity: 0.30;
+  position: absolute;
+}

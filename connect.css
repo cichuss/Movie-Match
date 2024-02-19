@@ -1,0 +1,235 @@
+.header-container {
+  width: 100%;
+  height: 84px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-register {
+  top: 27px;
+  right: 40px;
+  width: 186px;
+  height: 25px;
+  position: absolute;
+}
+.header-logo-placeholder {
+  top: 14px;
+  left: 58px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  align-self: center;
+}
+.header-register1 {
+  top: 28px;
+  left: 143px;
+  width: 186px;
+  height: 25px;
+  position: absolute;
+}
+.header-banner {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+
+
+
+
+
+
+
+.menu-container {
+  width: 252px;
+  height: 1087px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.menu-options-frame {
+  left: -3px;
+  width: 100%;
+  bottom: -2px;
+  height: 1087px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 4, 22, 1);
+}
+.menu-frame9 {
+  top: 76px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+.menu-frame10 {
+  top: 158px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+.menu-frame91 {
+  top: 240px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+.menu-frame92 {
+  top: 322px;
+  left: 23px;
+  width: 186px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 500px;
+  background-color: rgba(217, 182, 139, 1);
+}
+
+
+
+
+
+.footer-container {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-footer {
+  width: 100%;
+  height: 100%;
+}
+.footer-text {
+  top: 11px;
+  left: 624px;
+  color: rgb(117, 117, 117);
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: center;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Jolly Lodger";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+
+
+
+.connect-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.connect-frame43-conect03 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  background-color: rgba(217, 182, 139, 1);
+}
+.connect-button-confirm-register {
+  top: 512px;
+  left: 742px;
+  width: 186px;
+  height: 25px;
+  position: absolute;
+}
+.connect-rectangle7 {
+  top: 436px;
+  left: 620px;
+  width: 430px;
+  height: 25px;
+  position: absolute;
+  border-radius: 500px;
+}
+.connect-poster01 {
+  top: 145px;
+  left: 319px;
+  width: 243px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(12, 53, 89, 1);
+}
+.connect-poster04 {
+  top: 145px;
+  left: 1107px;
+  width: 243px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 165, 102, 1);
+}
+.connect-poster05 {
+  top: 525px;
+  left: 319px;
+  width: 243px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 13, 13, 1);
+}
+.connect-poster08 {
+  top: 525px;
+  left: 1107px;
+  width: 243px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(242, 203, 5, 1);
+}
