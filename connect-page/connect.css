@@ -1,103 +1,3 @@
-* {
-  box-sizing: border-box;
-  border-width: 0;
-  border-style: solid;
-}
-
-p,
-li,
-ul,
-pre,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-figure,
-blockquote,
-figcaption {
-  margin: 0;
-  padding: 0;
-}
-
-button {
-  background-color: transparent;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-button:-moz-focus,
-[type="button"]:-moz-focus,
-[type="reset"]:-moz-focus,
-[type="submit"]:-moz-focus {
-  outline: 1px dotted ButtonText;
-}
-
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-input {
-  padding: 2px 4px;
-}
-
-img {
-  display: block;
-}
-
-
-
-html {
-  font-family: Inter;
-  font-size: 16px;
-  scroll-behavior: smooth;
-  line-height: 1.15;
-}
-
-body {
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: none;
-  text-transform: none;
-  letter-spacing: normal;
-  line-height: 1.15;
-  color: var(--dl-color-gray-black);
-  background-color: var(--dl-color-gray-white);
-  margin: 0;
-}
-
 .header-container {
   width: 100%;
   height: 84px;
@@ -133,13 +33,6 @@ body {
   height: 100%;
   align-self: center;
 }
-
-
-
-
-
-
-
 .menu-container {
   width: 252px;
   height: 1087px;
@@ -251,7 +144,7 @@ body {
 
 
 
-.home-container {
+.connect-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -259,7 +152,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.home-frame43-home06 {
+.connect-frame43-conect03 {
   width: 100%;
   height: 1024px;
   display: flex;
@@ -270,11 +163,26 @@ body {
   justify-content: flex-start;
   background-color: rgba(217, 182, 139, 1);
 }
-.home-poster {
-  top: 193px;
-  left: 474px;
-  width: 442px;
-  height: 654px;
+.connect-button-confirm-register {
+  top: 512px;
+  left: 742px;
+  width: 186px;
+  height: 25px;
+  position: absolute;
+}
+.connect-rectangle7 {
+  top: 436px;
+  left: 620px;
+  width: 430px;
+  height: 25px;
+  position: absolute;
+  border-radius: 500px;
+}
+.connect-poster01 {
+  top: 145px;
+  left: 319px;
+  width: 243px;
+  height: 360px;
   display: flex;
   overflow: hidden;
   position: absolute;
@@ -282,66 +190,39 @@ body {
   flex-shrink: 0;
   background-color: rgba(12, 53, 89, 1);
 }
-.home-info {
-  top: 193px;
-  left: 916px;
-  width: 441px;
-  height: 654px;
+.connect-poster04 {
+  top: 145px;
+  left: 1107px;
+  width: 243px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(217, 165, 102, 1);
+}
+.connect-poster05 {
+  top: 525px;
+  left: 319px;
+  width: 243px;
+  height: 360px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(13, 13, 13, 1);
+}
+.connect-poster08 {
+  top: 525px;
+  left: 1107px;
+  width: 243px;
+  height: 360px;
   display: flex;
   overflow: hidden;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   background-color: rgba(242, 203, 5, 1);
-}
-.home-page-next {
-  top: 449px;
-  right: 114px;
-  width: 115px;
-  height: 115px;
-  position: absolute;
-}
-.home-button-shake-it-placeholder {
-  top: 103px;
-  right: 129px;
-  width: 68px;
-  height: 68px;
-  position: absolute;
-}
-.home-text {
-  top: 462px;
-  left: 579px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 64px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.home-text2 {
-  top: 468px;
-  left: 983px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 64px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.home-page-back {
-  top: 449px;
-  left: 341px;
-  width: 115px;
-  height: 115px;
-  position: absolute;
 }

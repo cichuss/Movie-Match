@@ -1,7 +1,7 @@
 function redirectToIndex() {
-    window.location.href = 'index.html';
+    window.location.href = '../index/index.html';
 }
 
 function redirectToLogin() {
-    window.location.href = 'login.html';
+    window.location.href = '../login-page/login.html';
 }
