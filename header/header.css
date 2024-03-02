@@ -38,19 +38,19 @@
     transition-duration: 0.4s;
 }
 
-.reounded-button-login {
+.rounded-button-login {
     top: 28px;
     right: 143px;
     position: absolute;
 }
 
-.reounded-button-user-name {
+.rounded-button-user-name {
     top: 28px;
     left: 143px;
     position: absolute;
 }
 
-.reounded-button-register {
+.rounded-button-register {
     top: 28px;
     right: 346px;
     position: absolute;

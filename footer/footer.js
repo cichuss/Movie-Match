@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../header-logged-in/headerLogedIn.html')
+    fetch('../footer/footer.html')
         .then(response => response.text())
         .then(data => {
-            document.body.insertAdjacentHTML('afterbegin', data);
+            document.body.insertAdjacentHTML('afterend', data);
         });
 });
 

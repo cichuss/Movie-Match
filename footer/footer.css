@@ -1,0 +1,28 @@
+.footer-container {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-footer {
+    width: 100%;
+    height: 100%;
+}
+.footer-text {
+    top: 11px;
+    left: 624px;
+    color: rgb(117, 117, 117);
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: center;
+    text-align: left;
+    font-family: "Jolly Lodger";
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}

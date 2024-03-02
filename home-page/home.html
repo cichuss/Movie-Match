@@ -1,74 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>home - Variable Cultured Spider</title>
-  <meta property="og:title" content="home - Variable Cultured Spider" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Match - Home</title>
+  <meta property="og:title" content="Movie Match - Home" />
   <meta property="twitter:card" content="summary_large_image" />
-  <link
-          rel="stylesheet"
-          href="https://unpkg.com/animate.css@4.1.1/animate.css"
-  />
-  <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-          data-tag="font"
-  />
-  <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Jolly+Lodger:wght@400&amp;display=swap"
-          data-tag="font"
-  />
-  <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
-          data-tag="font"
-  />
-  <link
-          rel="stylesheet"
-          href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jolly+Lodger:wght@400&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="../style.css" />
+  <link href="./home.css" rel="stylesheet" />
+  <script src="../header/header.js"></script>
+  <script src="../menu/menu.js"></script>
+  <script src="../footer/footer.js"></script>
+  <script src="../navigation.js"></script>
+
 </head>
 <body>
-<script src="../header-logged-in/headerLogedIn.js"></script>
-<script src="../menu/menu.js"></script>
-<link rel="stylesheet" href="../style.css" />
 <div>
-  <link href="./home.css" rel="stylesheet" />
-
   <div class="home-container">
     <div class="home-frame43-home06">
       <div class="home-poster"></div>
       <div class="home-info"></div>
-      <img
-              src="../public/external/pagenext7062-4959.svg"
-              alt="PageNext7062"
-              class="home-page-next"
-      />
+      <i class="fas fa-chevron-right home-page-next fa-3x"></i>
+
       <img
               src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/caf96603-63d6-4f31-b863-d71a717907be/a2e55a97-f13d-465c-a69c-870b4d98bf0b?org_if_sml=12845&amp;force_format=original"
-              alt="ButtonShakeItPlaceholder7063"
+              alt="Button Shake"
               class="home-button-shake-it-placeholder"
+              onclick=redirectToShake()
       />
       <span class="home-text"><span>Poster</span></span>
-      <span class="home-text2"><span>Sypnosis</span></span>
-      <img
-              src="../public/external/pageback7061-k4q.svg"
-              alt="PageBack7061"
-              class="home-page-back"
-      />
-
-    </div>
-    <div class="footer-container footer-root-class-name2">
-      <img
-              alt="Footer2517"
-              src="../public/external/footer2517-2mog-200h-200h.png"
-              class="footer-footer"
-      />
-      <span class="footer-text">
-            <span>© 2024 ShakeIt Site. Created by: Hania - Magda - Robert</span>
-          </span>
+      <span class="home-text2"><span>Synopsis</span></span>
+      <div id="menu"></div>
+      <i class="fas fa-chevron-left home-page-back fa-3x"></i>
     </div>
   </div>
 </div>
