@@ -21,4 +21,7 @@ function redirectToShake() {
 function redirectToConnect() {
     window.location.href = '../connect-page/connect.html';
 }
+function redirectToRegister() {
+    window.location.href = '../register-page/register.html';
+}
 
