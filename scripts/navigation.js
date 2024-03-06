@@ -25,3 +25,4 @@ function redirectToRegister() {
     window.location.href = '../register-page/register.html';
 }
 
+

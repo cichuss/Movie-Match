@@ -28,7 +28,6 @@
   background-color: rgba(217, 4, 22, 1);
   color: white;
 }
-
 .connect-button:hover {
   background-color: #ff7f50; /* Slightly lighter orange color for hover effect */
 }
@@ -39,6 +38,21 @@
   height: 25px;
   position: absolute;
   border-radius: 500px;
+}
+.username-text {
+  top: 380px;
+  left: 690px;
+  color: #680d0d;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
 .connect-poster01 {
   top: 145px;
