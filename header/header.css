@@ -33,7 +33,6 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
     line-height: 25px;
     transition-duration: 0.4s;
 }
@@ -50,14 +49,9 @@
     position: absolute;
 }
 
-.rounded-button-register {
-    top: 28px;
-    right: 346px;
-    position: absolute;
-}
-
-.rounded-button:hover {
+.rounded-button-login:hover {
     background-color: #ff7f50; /* Slightly lighter orange color for hover effect */
+    cursor: pointer;
 }
 
 
