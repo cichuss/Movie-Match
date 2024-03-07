@@ -1,0 +1,58 @@
+.menu-container {
+    width: 252px;
+    height: 1087px;
+    display: flex;
+    /* position: relative;  Menu style is only refereced using divs of homePage, so we need to adapt it*/
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+}
+.menu-options-frame {
+    left: -3px;
+    width: 100%;
+    bottom: -2px;
+    height: 1087px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(217, 4, 22, 1);
+}
+
+.button-home {
+    top: 76px;
+    left: 23px;
+    position: absolute;
+}
+.button-liked {
+    top: 158px;
+    left: 23px;
+    position: absolute;
+}
+.button-connect {
+    top: 240px;
+    left: 23px;
+    position: absolute;
+}
+.button-rounded {
+    width: 186px;
+    height: 44px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(217, 182, 139, 1);
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    display: inline-block;
+    color: #680d0d; /* text color*/
+    padding: 0px 20px;
+    border: none;
+
+}
+
+.button-rounded:hover {
+    background-color: #ff7f50; /* Slightly lighter orange color for hover effect */
+}
