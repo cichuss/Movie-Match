@@ -1,7 +1,6 @@
-
-document.addEventListener('DOMContentLoaded', init);
-
+window.addEventListener('DOMContentLoaded', init);
 function init() {
+    loadContent('../home-page/home.html', 'home-container');
     loadContent('../menu/menu.html', 'menu');
     loadContent('../header/header.html', 'header');
     loadContent('../footer/footer.html', 'footer');
@@ -14,6 +13,6 @@ function loadContent(url, targetId) {
             document.getElementById(targetId).innerHTML = data;
         })
         .catch(error => {
-            console.error('Wystąpił błąd podczas wczytywania zawartości:', error);
+            console.error('Error loading page:', error);
         });
 }

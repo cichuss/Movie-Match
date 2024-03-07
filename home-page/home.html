@@ -1,42 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Movie Match - Home</title>
-  <meta property="og:title" content="Movie Match - Home" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <link rel="stylesheet" href="../style/fonts.css" />
-  <link rel="stylesheet" href="../style/style.css" />
-  <link href="./home.css" rel="stylesheet" />
-  <script async src="../scripts/navigation.js"></script>
-  <script defer src="../scripts/loadContent.js"></script>
-
-</head>
-<body>
-
-  <div id="header"></div>
-
-  <div class="home-container">
-    <div class="home-frame43-home06">
-      <div class="home-poster"> <img
-              src="/img/movie-poster-jaws.jpg"
-              alt="Poster"/>
-      </div>
-      <div class="home-info"> </div>
-      <i class="fas fa-chevron-right home-page-next fa-3x"></i>
-      <img
-              src="/img/shakeButton.webp"
-              alt="Button Shake"
-              class="home-button-shake-it-placeholder"
-              onclick=redirectToShake()
-      />
-      <span class="home-text"><span></span></span>
-      <span class="home-text2"><span>Synopsis</span></span>
-      <div id="menu"></div>
-      <i class="fas fa-chevron-left home-page-back fa-3x"></i>
+<div class="home-frame43-home06">
+    <div class="home-poster"> <img
+            src="../img/movie-poster-jaws.jpg"
+            alt="Poster"/>
     </div>
-  </div>
-<div id="footer"></div>
-</body>
+    <div class="home-info"> </div>
+    <i class="fas fa-chevron-right home-page-next fa-3x"></i>
+    <img
+            src="../img/shakeButton.webp"
+            alt="Button Shake"
+            class="home-button-shake-it-placeholder"
+            onclick=redirectToShake()
+    />
+    <span class="home-text"><span></span></span>
+    <span class="home-text2"><span>Synopsis</span></span>
+    <div class="menu-container menu-root-class-name1">
+        <div class="menu-options-frame">
+            <button class="button-rounded button-home"  onclick="redirectToHome()">Home</button>
+            <button class="button-rounded button-liked" onclick="redirectToLiked()" >Liked List</button>
+            <button class="button-rounded button-connect" onclick="redirectToConnect()">Connect</button>
+        </div>
+    <i class="fas fa-chevron-left home-page-back fa-3x"></i>
+</div>
+</div>
 </html>

@@ -1,5 +1,5 @@
-function redirectToIndex() {
-    window.location.href = '../index/index.html';
+function redirectToLandingPage() {
+    window.location.href = '../landing-page/landing-page.html';
 }
 
 function redirectToLogin() {
@@ -7,19 +7,22 @@ function redirectToLogin() {
 }
 
 function redirectToLiked() {
-    window.location.href = '../liked-movies-page/liked.html';
+    loadContent('../liked-movies-page/liked.html', 'home-container');
 }
 
+function redirectToIndex() {
+    window.location.href = '../home-page/index.html';
+}
 function redirectToHome() {
-    window.location.href = '../home-page/home.html';
+    loadContent('../home-page/home.html', 'home-container');
 }
 
 function redirectToShake() {
-    window.location.href = '../shake-page/shake.html';
+    loadContent('../shake-page/shake.html', 'home-container');
 }
 
 function redirectToConnect() {
-    window.location.href = '../connect-page/connect.html';
+    loadContent('../connect-page/connect.html', 'home-container');
 }
 function redirectToRegister() {
     window.location.href = '../register-page/register.html';

@@ -2,9 +2,11 @@
     width: 252px;
     height: 1087px;
     display: flex;
-    position: relative;
+    /* position: relative;  Menu style is only refereced using divs of homePage, so we need to adapt it*/
     align-items: flex-start;
     flex-direction: column;
+    position: absolute;
+    left: 0;
 }
 .menu-options-frame {
     left: -3px;

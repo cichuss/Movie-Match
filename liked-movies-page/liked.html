@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Movie Match - Liked Movies</title>
-  <meta property="og:title" content="Movie Match - Liked Movies" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
-  <meta property="twitter:card" content="summary_large_image" />
-  <link rel="stylesheet" href="../style/fonts.css" />
-  <link href="./liked.css" rel="stylesheet" />
-  <link rel="stylesheet" href="../style/style.css" />
-  <script src="../scripts/navigation.js"></script>
-  <script src="../scripts/loadContent.js"></script>
-</head>
 
-<body>
-<div id="header"></div>
   <div class="liked-container">
     <div class="liked-frame43-liked-list04">
       <div class="liked-poster01"></div>
@@ -26,7 +12,7 @@
       <div class="liked-poster07"></div>
       <div class="liked-poster08"></div>
       <img
-              src="/img/shakeButton.webp"
+              src="../img/shakeButton.webp"
               alt="ButtonShakeItPlaceholder7011"
               class="liked-button-shake-it-placeholder"
               onclick=redirectToShake()
@@ -39,12 +25,13 @@
       <span class="liked-text10"><span>Poster</span></span>
       <span class="liked-text12"><span>Poster</span></span>
       <span class="liked-text14"><span>Poster</span></span>
-
-      <div id="menu"></div>
+      <div class="menu-container menu-root-class-name1">
+        <div class="menu-options-frame">
+          <button class="button-rounded button-home"  onclick="redirectToHome()">Home</button>
+          <button class="button-rounded button-liked" onclick="redirectToLiked()" >Liked List</button>
+          <button class="button-rounded button-connect" onclick="redirectToConnect()">Connect</button>
+        </div>
+      </div>
     </div>
   </div>
-
-<div id="footer"></div>
-
-</body>
 </html>
