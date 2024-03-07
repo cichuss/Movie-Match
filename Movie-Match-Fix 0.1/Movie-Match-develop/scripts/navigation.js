@@ -1,5 +1,5 @@
-function redirectToIndex() {
-    window.location.href = '../index/index.html';
+function redirectToLandingPage() {
+    window.location.href = '../landing-page/landing-page.html';
 }
 
 function redirectToLogin() {
@@ -10,11 +10,11 @@ function redirectToLiked() {
     loadContent('../liked-movies-page/liked.html', 'home-container');
 }
 
-function redirectToTrueIndex() {
-    window.location.href = '../home-page/home.html';
+function redirectToIndex() {
+    window.location.href = '../home-page/index.html';
 }
 function redirectToHome() {
-    loadContent('../home-page/home2.html', 'home-container');
+    loadContent('../home-page/home.html', 'home-container');
 }
 
 function redirectToShake() {
