@@ -88,3 +88,9 @@
   left: 341px;
   position: absolute;
 }
+.green-arrow {
+  color: green;
+}
+.red-arrow {
+  color: red;
+}
