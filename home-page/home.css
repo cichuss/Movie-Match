@@ -68,7 +68,23 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-text2 {
+
+.title {
+  top: 200px;
+  left: 983px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: center;
+  font-family: JetBrains Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.description {
   top: 468px;
   left: 983px;
   color: rgba(0, 0, 0, 1);

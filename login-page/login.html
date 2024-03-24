@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../style/style.css" />
   <link href="login.css" rel="stylesheet" />
   <script src="../scripts/navigation.js"></script>
+  <script src="../strapi/reading_from_json.js"></script>
 
 </head>
 
@@ -31,7 +32,8 @@
         <input type="text" placeholder="Password" class="login-input-pwd" />
       </label>
       <span class="login-text2"><span>Password</span></span>
-      <button class="login-button-confirm-login" onclick="redirectToIndex()">Login</button>
+      <span class="error-message"><span></span></span>
+      <button class="login-button-confirm-login" onclick="checkPassword()">Login</button>
     </div>
   </div>
 </div>

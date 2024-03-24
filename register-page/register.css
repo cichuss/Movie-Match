@@ -161,3 +161,16 @@
 .login-button-confirm-login:hover {
     background-color: #ff7f50; /* Slightly lighter orange color for hover effect */
 }
+
+.error-message {
+    top: 600px;
+    left: 456px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Inter;
+
+}

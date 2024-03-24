@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../style/fonts.css" />
     <link rel="stylesheet" href="../style/style.css" />
     <link href="register.css" rel="stylesheet" />
+    <script src="../strapi/register.js"></script>
 </head>
 
 <body>
@@ -40,7 +41,8 @@
             <span class="login-text2"><span>Password</span></span>
             <span class="login-text3"><span>Confirm Password</span></span>
             <span class="login-text4"><span>Email</span></span>
-            <button class="login-button-confirm-login" onclick=redirectToIndex()>Login</button>
+            <span class="error-message"><span></span></span>
+            <button class="login-button-confirm-login" onclick="register()">Login</button>
         </div>
     </div>
 </div>
