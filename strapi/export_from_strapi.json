@@ -345,7 +345,7 @@
 				"id": 3,
 				"Username": "Magda",
 				"Email": "magda@gmail.com",
-				"Password": "$2a$10$ziQ",
+				"Password": "123456",
 				"createdAt": "2024-03-21T09:54:46.382Z",
 				"updatedAt": "2024-03-24T14:46:57.841Z",
 				"publishedAt": "2024-03-21T09:54:58.260Z",

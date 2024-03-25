@@ -102,3 +102,15 @@
   flex-shrink: 0;
   background-color: rgba(242, 203, 5, 1);
 }
+.error-message {
+  top: 475px;
+  left: 730px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+
+}

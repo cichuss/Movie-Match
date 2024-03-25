@@ -120,6 +120,17 @@
   height: 68px;
   position: absolute;
 }
+.connect-text {
+  top: 90px;
+  left: 100px;
+  color: #800020;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+}
 .liked-text {
   top: 298px;
   left: 375px;
