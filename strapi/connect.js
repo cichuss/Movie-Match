@@ -19,17 +19,19 @@ function findUserByUsername(username) {
         xhttp.send();
     });
 }
-
 function connectToUser() {
     var userNameForm = document.querySelector('.connect-username').value;
     findUserByUsername(userNameForm)
         .then(user => {
             console.log(userNameForm);
-            redirectToLiked();
+            redirectToLiked(printUsername);
         })
         .catch(error => {
             document.querySelector('.error-message').innerHTML = "The user doesn't exist";
         });
+}
+function printUsername() {
+    document.querySelector('.connect-text').innerHTML = "Connected to user: Magda";
 }
 function loadConnectMovieData() {
     var xhttp = new XMLHttpRequest();

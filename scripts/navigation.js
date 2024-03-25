@@ -6,8 +6,8 @@ function redirectToLogin() {
     window.location.href = '../login-page/login.html';
 }
 
-function redirectToLiked() {
-    loadContent('../liked-movies-page/liked.html', 'home-container');
+function redirectToLiked(loadData) {
+    loadContent('../liked-movies-page/liked.html', 'home-container', loadData);
 }
 
 function redirectToIndex() {
@@ -27,4 +27,3 @@ function redirectToConnect() {
 function redirectToRegister() {
     window.location.href = '../register-page/register.html';
 }
-
