@@ -27,7 +27,7 @@ function registerUser(username, password, email) {
             userData[newUserId] = newUser;
 
             var xhr = new XMLHttpRequest();
-            xhr.open("PUT", "http://127.0.0.1:8080/export_from_strapi.json", true);
+            xhr.open("POST", "../strapi/export_from_strapi.json", true);
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             xhr.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
@@ -38,7 +38,7 @@ function registerUser(username, password, email) {
             xhr.send(JSON.stringify(data));
         }
     };
-    xhttp.open("GET", "http://127.0.0.1:8080/export_from_strapi.json", true);
+    xhttp.open("GET", "../strapi/export_from_strapi.json", true);
     xhttp.send();
 }
 

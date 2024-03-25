@@ -17,7 +17,7 @@ function loadMovieData() {
             displayFoto(data, photoID);
         }
     };
-    xhttp.open("GET", "http://127.0.0.1:8080/export_from_strapi.json", true);
+    xhttp.open("GET", "../strapi/export_from_strapi.json", true);
     xhttp.send();
 }
 
@@ -31,7 +31,7 @@ function loadUserData() {
             document.querySelector('.rounded-button-user-name').innerHTML = userName;
         }
     };
-    xhttp.open("GET", "http://127.0.0.1:8080/export_from_strapi.json", true);
+    xhttp.open("GET", "../strapi/export_from_strapi.json", true);
     xhttp.send();
 }
 
@@ -71,7 +71,7 @@ function findPasswordByUsername(username) {
                 reject('The user does not exist.');
             }
         };
-        xhttp.open("GET", "http://127.0.0.1:8080/export_from_strapi.json", true);
+        xhttp.open("GET", "../strapi/export_from_strapi.json", true);
         xhttp.send();
     });
 }

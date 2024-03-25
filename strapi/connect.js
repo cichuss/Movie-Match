@@ -15,7 +15,7 @@ function findUserByUsername(username) {
                 reject('The user does not exist.');
             }
         };
-        xhttp.open("GET", "http://127.0.0.1:8080/export_from_strapi.json", true);
+        xhttp.open("GET", "../strapi/export_from_strapi.json", true);
         xhttp.send();
     });
 }
