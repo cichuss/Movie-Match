@@ -12,16 +12,13 @@ function redirectToLiked() {
 
 function redirectToIndex() {
     window.location.href = '../home-page/index.html';
-    loadMovieData();
 }
 function redirectToHome() {
-    loadContent('../home-page/home.html', 'home-container');
-    loadMovieData();
+    loadContent('../home-page/home.html', 'home-container', loadMovieData);
 }
 
 function redirectToShake() {
-    loadContent('../shake-page/shake.html', 'home-container');
-    loadMovieData();
+    loadContent('../shake-page/shake.html', 'home-container', loadMovieData);
 }
 
 function redirectToConnect() {

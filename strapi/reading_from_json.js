@@ -12,6 +12,8 @@ function loadMovieData() {
             const movieDescription = moviesData[movieID]?.Description?? "There is no more movies"
             document.querySelector('.description').innerHTML = movieDescription;
             const photoID = moviesData[movieID]?.photoUrl?? 1;
+            console.log(movieTitle);
+            console.log(movieID);
             displayFoto(data, photoID);
         }
     };
@@ -24,7 +26,6 @@ function loadUserData() {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var data = JSON.parse(this.responseText);
-            //console.log(data);
             const userData = data.data['api::app-user.app-user'];
             const userName = userData[1]?.Username ?? 'Film o takim ID nie został znaleziony.';
             document.querySelector('.rounded-button-user-name').innerHTML = userName;
@@ -83,14 +84,10 @@ function getRandomMovieId(moviesData){
 
 function displayFoto(data, photoID){
     const photoData = data.data['plugin::upload.file'];
-    console.log(photoData);
     const moviePhoto = photoData[photoID];
-    console.log(photoID);
-    console.log(moviePhoto.name);
     if (moviePhoto) {
         const posterImage = document.querySelector('.home-poster img');
         posterImage.src = `../img/posters/${moviePhoto.name}`;
-        console.log("../img/posters/${moviePhoto.name}");
     } else {
         console.error('No photo found for movie ID:', movieID);
     }
