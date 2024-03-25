@@ -22,7 +22,7 @@ function redirectToShake() {
 }
 
 function redirectToConnect() {
-    loadContent('../connect-page/connect.html', 'home-container');
+    loadContent('../connect-page/connect.html', 'home-container', loadConnectMovieData);
 }
 function redirectToRegister() {
     window.location.href = '../register-page/register.html';
