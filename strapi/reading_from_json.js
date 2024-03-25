@@ -1,14 +1,18 @@
+
+
 function loadMovieData() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var data = JSON.parse(this.responseText);
-            //console.log(data);
             const moviesData = data.data['api::movie.movie'];
-            const movieTitle = moviesData[5]?.Title ?? 'Film o takim ID nie został znaleziony.';
-            const movieDescription = moviesData[5]?.Description ?? 'Film o takim ID nie został znaleziony.';
+            movieID = getRandomMovieId(moviesData);
+            const movieTitle = moviesData[movieID]?.Title ?? 'No movies';
             document.querySelector('.title').innerHTML = movieTitle;
+            const movieDescription = moviesData[movieID]?.Description?? "There is no more movies"
             document.querySelector('.description').innerHTML = movieDescription;
+            const photoID = moviesData[movieID]?.photoUrl?? 1;
+            displayFoto(data, photoID);
         }
     };
     xhttp.open("GET", "http://127.0.0.1:8080/export_from_strapi.json", true);
@@ -70,5 +74,28 @@ function findPasswordByUsername(username) {
         xhttp.send();
     });
 }
+
+function getRandomMovieId(moviesData){
+    const movieIds = Object.keys(moviesData); // Tworzymy tablicę z kluczami/ID filmów
+    const randomIndex = Math.floor(Math.random() * movieIds.length); // Generujemy losowy indeks
+    return  movieIds[randomIndex]; // Pobieramy losowe ID filmu
+}
+
+function displayFoto(data, photoID){
+    const photoData = data.data['plugin::upload.file'];
+    console.log(photoData);
+    const moviePhoto = photoData[photoID];
+    console.log(photoID);
+    console.log(moviePhoto.name);
+    if (moviePhoto) {
+        const posterImage = document.querySelector('.home-poster img');
+        posterImage.src = `../img/posters/${moviePhoto.name}`;
+        console.log("../img/posters/${moviePhoto.name}");
+    } else {
+        console.error('No photo found for movie ID:', movieID);
+    }
+}
+
+
 
 

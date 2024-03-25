@@ -17,30 +17,7 @@
   justify-content: flex-start;
   background-color: rgba(217, 182, 139, 1);
 }
-.shake-poster {
-  top: 176px;
-  left: 458px;
-  width: 442px;
-  height: 654px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(12, 53, 89, 1);
-}
-.shake-info {
-  top: 176px;
-  left: 900px;
-  width: 441px;
-  height: 654px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(242, 203, 5, 1);
-}
+
 .shake-button-shake-it-placeholder {
   top: 86px;
   right: 147px;
@@ -48,33 +25,8 @@
   height: 68px;
   position: absolute;
 }
-.shake-text {
-  top: 445px;
-  left: 561px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 64px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.shake-text2 {
-  top: 451px;
-  left: 965px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 64px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
+
+
+
+

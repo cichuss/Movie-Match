@@ -15,8 +15,80 @@ body {
     border-style: solid;
 }
 
+.home-info {
+    top: 193px;
+    left: 916px;
+    width: 441px;
+    height: 654px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(242, 203, 5, 1);
+    padding: 2rem;
+    overflow: auto;
+    flex-direction: column; /* Elementy są ułożone kolumnowo */
+    justify-content: center; /* Wycentrowanie treści w pionie */
+}
 
+.home-poster {
+    top: 193px;
+    left: 474px;
+    width: 442px;
+    height: 654px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(12, 53, 89, 1);
+    /*object-fit: cover;  !* This will cover the area without stretching the image *!*/
+    display: block;
+}
 
+.home-poster img {
+    width: 100%;        /* Make the image take up the full width of its container */
+    height: 100%;       /* Make the image take up the full height of its container */
+    object-fit: cover;  /* This will cover the area without stretching the image */
+    display: block;     /* Removes any default margin or padding */
+}
+
+.title {
+    top: 250px;
+    left: 983px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 38px;
+    font-style: Regular;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.description {
+    top: 400px;
+    left: 983px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24 px;
+    font-style: Regular;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    max-width: 20%;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
 
 
 
