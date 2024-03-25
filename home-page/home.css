@@ -17,17 +17,9 @@
   justify-content: flex-start;
   background-color: rgba(217, 182, 139, 1);
 }
-
 .home-page-next {
   top: 449px;
   right: 114px;
-  position: absolute;
-}
-.home-button-shake-it-placeholder {
-  top: 103px;
-  right: 129px;
-  width: 68px;
-  height: 68px;
   position: absolute;
 }
 .home-text {
@@ -45,7 +37,6 @@
   font-stretch: normal;
   text-decoration: none;
 }
-
 .home-page-back {
   top: 449px;
   left: 341px;
@@ -56,4 +47,12 @@
 }
 .red-arrow {
   color: red;
+}
+.green-arrow:hover {
+  cursor: pointer;
+  color: darkgreen;
+}
+.red-arrow:hover {
+  cursor: pointer;
+  color: darkred;
 }

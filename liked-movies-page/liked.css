@@ -113,13 +113,6 @@
   flex-shrink: 0;
   background-color: rgba(242, 203, 5, 1);
 }
-.liked-button-shake-it-placeholder {
-  top: 95px;
-  left: 1343px;
-  width: 68px;
-  height: 68px;
-  position: absolute;
-}
 .connect-text {
   top: 90px;
   left: 100px;

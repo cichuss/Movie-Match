@@ -89,11 +89,13 @@ body {
     line-height: 1.5;
     word-wrap: break-word;
 }
-
-
-
-
-
-
-
-
+.shake-it-button {
+    top: 95px;
+    left: 1343px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+}
+.shake-it-button:hover {
+    cursor: pointer;
+}
