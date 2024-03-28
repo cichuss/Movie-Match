@@ -17,241 +17,21 @@
   justify-content: flex-start;
   background-color: rgba(217, 182, 139, 1);
 }
-.liked-poster01 {
-  top: 169px;
-  left: 343px;
-  width: 226px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(12, 53, 89, 1);
-}
-.liked-poster02 {
-  top: 169px;
-  left: 590px;
-  width: 225px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(242, 203, 5, 1);
-}
-.liked-poster03 {
-  top: 169px;
-  left: 829px;
-  width: 225px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(242, 183, 5, 1);
-}
-.liked-poster04 {
-  top: 169px;
-  left: 1075px;
-  width: 226px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(217, 165, 102, 1);
-}
-.liked-poster05 {
-  top: 523px;
-  left: 343px;
-  width: 226px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(13, 13, 13, 1);
-}
-.liked-poster06 {
-  top: 523px;
-  left: 590px;
-  width: 225px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(217, 165, 102, 1);
-}
-.liked-poster07 {
-  top: 523px;
-  left: 829px;
-  width: 225px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(12, 53, 89, 1);
-}
-.liked-poster08 {
-  top: 523px;
-  left: 1075px;
-  width: 226px;
-  height: 334px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  background-color: rgba(242, 203, 5, 1);
-}
+
 .connect-text {
-  top: 90px;
+  top: 10px;
   left: 350px;
   color: #800020;
-  height: auto;
+  /*height: auto;*/
+  width: auto;
   position: absolute;
   font-size: 25px;
   font-style: Regular;
   text-align: center;
+  align-items: center;
   font-family: Inter;
 }
-.liked-text {
-  top: 298px;
-  left: 375px;
-  color: rgba(255, 255, 255, 1);
-  width: 161px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text02 {
-  top: 661px;
-  left: 375px;
-  color: rgba(255, 255, 255, 1);
-  width: 161px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text04 {
-  top: 298px;
-  left: 622px;
-  color: rgba(255, 255, 255, 1);
-  width: 161px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text06 {
-  top: 661px;
-  left: 622px;
-  color: rgba(255, 255, 255, 1);
-  width: 161px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text08 {
-  top: 302px;
-  left: 867px;
-  color: rgba(255, 255, 255, 1);
-  width: 163px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text10 {
-  top: 655px;
-  left: 867px;
-  color: rgba(255, 255, 255, 1);
-  width: 163px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text12 {
-  top: 302px;
-  left: 1114px;
-  color: rgba(255, 255, 255, 1);
-  width: 162px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.liked-text14 {
-  top: 651px;
-  left: 1114px;
-  color: rgba(255, 255, 255, 1);
-  width: 162px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: JetBrains Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
+
 .liked-rectangle33 {
   top: 150px;
   left: 326px;
@@ -260,3 +40,26 @@
   opacity: 0.30;
   position: absolute;
 }
+
+.posters-container {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-left: 330px;
+  /*margin-bottom: 450px;*/
+  /*overflow-x: scroll;*/
+  overflow-y: auto;
+  flex-wrap: wrap;
+  display: flex;
+  /*padding: 10px;*/
+  gap: 10px;
+  width: 100%;
+  height: 1024px;
+}
+
+
+.poster {
+  width: 326px; /* Width of each poster */
+}
+
+
+

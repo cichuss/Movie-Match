@@ -7,7 +7,13 @@ function redirectToLogin() {
 }
 
 function redirectToLiked(loadData) {
-    loadContent('../liked-movies-page/liked.html', 'home-container', loadData);
+    function combinedCallback() {
+        loadPosters();
+        if(typeof loadData ==='function' && loadData() != null){
+            loadData();
+        }
+    }
+    loadContent('../liked-movies-page/liked.html', 'home-container', combinedCallback);
 }
 
 function redirectToIndex() {
@@ -27,3 +33,5 @@ function redirectToConnect() {
 function redirectToRegister() {
     window.location.href = '../register-page/register.html';
 }
+
+

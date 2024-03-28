@@ -8,6 +8,7 @@
 }
 .home-frame43-home06 {
   width: 100%;
+  /*min-height: 1024px;*/
   height: 1024px;
   display: flex;
   overflow: hidden;
@@ -17,11 +18,11 @@
   justify-content: flex-start;
   background-color: rgba(217, 182, 139, 1);
 }
-.home-page-next {
-  top: 449px;
-  right: 114px;
-  position: absolute;
-}
+/*.home-page-next {*/
+/*  top: 449px;*/
+/*  right: 114px;*/
+/*  position: absolute;*/
+/*}*/
 .home-text {
   top: 462px;
   left: 579px;
@@ -37,15 +38,26 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-page-back {
-  top: 449px;
-  left: 341px;
+/*.home-page-back {*/
+/*  top: 449px;*/
+/*  left: 341px;*/
+/*  position: absolute;*/
+/*}*/
+
+.arrow {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2vw;
+  z-index: 10;
 }
+
 .green-arrow {
+  right: 8%;
   color: green;
 }
 .red-arrow {
+  left: 23%;
   color: red;
 }
 .green-arrow:hover {

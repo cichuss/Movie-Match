@@ -19,3 +19,5 @@ function loadContent(url, targetId, callback) {
             console.error('Error loading page:', error);
         });
 }
+
+
